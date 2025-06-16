@@ -7,6 +7,7 @@ Promise.all([
 
 async function startVideo() {
 	await setupCamera(); 
+	video.play();
 //  navigator.mediaDevices.getUserMedia({ video: {} })
 //    .then(stream => video.srcObject = stream)
 //    .catch(err => console.error('Error accediendo a la cámara:', err));
